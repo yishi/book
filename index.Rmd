@@ -2,12 +2,11 @@
 title: "道德真经注"
 author: 眉山苏辙注
 date: "`r Sys.Date()`"
-site: bookdown::bookdown_site
 output: 
   bookdown::gitbook: 
     css: style.css
     config:
-      download: ["epub"]
+      download: [["book_dao_de_jing_notes.epub", "EPUB"]]
   bookdown::epub_book: default
     
 ---
@@ -1633,10 +1632,7 @@ output:
 
 大观二年十二月十日子向题。
 
-
-[^11]: 何苦：原本作『何若』，据宝颜本改。
-[^12]: 全曰：此二字原在『子亦何由知之』后，据宝颜本改。
-
+****
 
 经名：道德真经注。
 
@@ -1649,4 +1645,10 @@ output:
 底本出处：《正统道藏》洞神部玉诀类。
 
 参校本：无求备斋影印宝颜堂秘夏本（简称宝颜本）。
+
+[^11]: 何苦：原本作『何若』，据宝颜本改。
+[^12]: 全曰：此二字原在『子亦何由知之』后，据宝颜本改。
+
+
+
 
