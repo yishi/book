@@ -8,4 +8,6 @@ The source files in branch 'main', the html files in branch 'gh-pages'.
 
 Here need add a file '.nojekyll' to gh-pages branch, and go to gh-pages branch Settings -> Pages do some set.
 
+You could see the details in [bookdown 6.3](https://bookdown.org/yihui/bookdown/github.html)
+
 The book is in https://yishi.github.io/book/ .
