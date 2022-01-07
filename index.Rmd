@@ -2,14 +2,23 @@
 title: "道德真经注"
 author: 眉山苏辙注
 date: "`r Sys.Date()`"
+url: 'https\://yishi.github.io/book/'
+github-repo: "yishi/book"
+favicon: "favicon.ico"
 output: 
   bookdown::gitbook: 
     css: style.css
     config:
       download: [["book_dao_de_jing_notes.epub", "EPUB"]]
+      search: yes
+      sharing: null 
   bookdown::epub_book: default
-    
 ---
+
+<style type="text/css">blockquote p {
+  font-weight: bold; 
+  color: red;
+}</style>
 
 
 # (PART\*) 道德真经注卷之一{-}

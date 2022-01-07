@@ -1,7 +1,0 @@
-# dir book_dao_de_jing_notes have two files, one is index.Rmd, the other is style.css.
-setwd('./book_dao_de_jing_notes')
-# get html files
-bookdown::render_book('index.Rmd')
-# get epub file
-bookdown::render_book("index.Rmd", bookdown::epub_book(stylesheet = 'style.css'))
-# no pdf file, because of unicode character error.
